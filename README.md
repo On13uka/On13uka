@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hi, I'm On13uka
 
-<!--
-**On13uka/On13uka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building free, open-source APIs for developers. No code — just Cursor AI and ideas.
 
-Here are some ideas to get you started:
+## API Portfolio
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+All APIs are live on RapidAPI with free tiers (100 requests/month, no credit card).
+
+| API | Description | RapidAPI | GitHub |
+|---|---|---|---|
+| Domain WHOIS | WHOIS data via RDAP protocol | [Live](https://rapidapi.com/On13uka/api/domain-whois2) | [Code](https://github.com/On13uka/domain-whois-api) |
+| Company Info | Company profiles from Wikipedia + Wikidata | [Live](https://rapidapi.com/On13uka/api/company-info1) | [Code](https://github.com/On13uka/company-info-api) |
+| Email Validator | 3-stage email verification (syntax + MX + SMTP) | [Live](https://rapidapi.com/On13uka/api/email-validator112) | [Code](https://github.com/On13uka/email-validator-api) |
+| IP Geolocation | Geolocate any IP (country, city, ISP, ASN) | [Live](https://rapidapi.com/On13uka/api/ip-geolocation44) | [Code](https://github.com/On13uka/ip-geolocation-api) |
+| Sanctions Screener | OFAC + UN sanctions screening (20K+ entities) | [Live](https://rapidapi.com/On13uka/api/sanctions-screener) | [Code](https://github.com/On13uka/sanctions-screener-api) |
+
+## Tech Stack
+
+- **IDE:** Cursor (AI code generation)
+- **Framework:** FastAPI + Python
+- **Hosting:** Render free tier
+- **Marketplace:** RapidAPI
+- **Code:** 100% AI-generated, open source
+
+## Try It
+
+Get a free RapidAPI key and start testing in 30 seconds:
+https://rapidapi.com/user/On13uka
