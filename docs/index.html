@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Portfolio — 5 Free APIs for Developers</title>
+    <meta name="description" content="Domain WHOIS, Company Info, Email Validator, IP Geolocation, and Sanctions Screener — all free, live on RapidAPI. Built with Cursor AI, no coding skills required.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; margin-bottom: 60px; }
+        .header h1 { font-size: 2.5em; color: #58a6ff; margin-bottom: 15px; }
+        .header p { font-size: 1.2em; color: #8b949e; max-width: 600px; margin: 0 auto; }
+        .badges { text-align: center; margin: 20px 0; }
+        .badge { display: inline-block; margin: 5px; padding: 5px 12px; background: #21262d; border: 1px solid #30363d; border-radius: 20px; font-size: 0.85em; color: #8b949e; }
+        .api-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 25px; margin-bottom: 60px; }
+        .api-card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 25px; transition: border-color 0.3s; }
+        .api-card:hover { border-color: #58a6ff; }
+        .api-card h3 { color: #58a6ff; font-size: 1.3em; margin-bottom: 10px; }
+        .api-card p { color: #8b949e; margin-bottom: 15px; }
+        .api-card .links { display: flex; gap: 10px; flex-wrap: wrap; }
+        .api-card a { display: inline-block; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: 0.9em; font-weight: 600; }
+        .api-card a.rapidapi { background: #238636; color: white; }
+        .api-card a.github { background: #21262d; color: #c9d1d9; border: 1px solid #30363d; }
+        .pricing { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 30px; margin-bottom: 40px; }
+        .pricing h2 { color: #58a6ff; margin-bottom: 20px; text-align: center; }
+        .pricing-table { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        .plan { text-align: center; padding: 20px 10px; background: #21262d; border-radius: 8px; }
+        .plan .name { font-weight: 700; color: #58a6ff; margin-bottom: 8px; }
+        .plan .price { font-size: 1.5em; font-weight: 700; color: #c9d1d9; margin-bottom: 5px; }
+        .plan .requests { color: #8b949e; font-size: 0.9em; }
+        .plan.free .price { color: #3fb950; }
+        .stack { text-align: center; margin-bottom: 40px; }
+        .stack h2 { color: #58a6ff; margin-bottom: 15px; }
+        .stack-items { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .stack-item { padding: 8px 16px; background: #21262d; border: 1px solid #30363d; border-radius: 6px; font-size: 0.9em; }
+        .cta { text-align: center; margin-bottom: 40px; }
+        .cta a { display: inline-block; padding: 15px 40px; background: #238636; color: white; text-decoration: none; border-radius: 8px; font-size: 1.1em; font-weight: 700; }
+        .cta a:hover { background: #2ea043; }
+        .footer { text-align: center; color: #484f58; font-size: 0.9em; padding-top: 20px; border-top: 1px solid #21262d; }
+        @media (max-width: 600px) { .pricing-table { grid-template-columns: repeat(2, 1fr); } .api-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>API Portfolio</h1>
+            <p>5 free APIs for developers. Domain WHOIS, Company Info, Email Validator, IP Geolocation, and Sanctions Screener. Built with Cursor AI, no coding skills required.</p>
+            <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">FastAPI</span>
+                <span class="badge">Cursor AI</span>
+                <span class="badge">Open Source</span>
+                <span class="badge">RapidAPI</span>
+            </div>
+        </div>
+
+        <div class="api-grid">
+            <div class="api-card">
+                <h3>Domain WHOIS</h3>
+                <p>Registration data for any domain via RDAP protocol. Returns registrar, dates, status, nameservers.</p>
+                <div class="links">
+                    <a class="rapidapi" href="https://rapidapi.com/On13uka/api/domain-whois2">RapidAPI</a>
+                    <a class="github" href="https://github.com/On13uka/domain-whois-api">GitHub</a>
+                </div>
+            </div>
+            <div class="api-card">
+                <h3>Company Info</h3>
+                <p>Company profiles from Wikipedia + Wikidata. Description, industry, founded, HQ, employees, revenue, ticker.</p>
+                <div class="links">
+                    <a class="rapidapi" href="https://rapidapi.com/On13uka/api/company-info1">RapidAPI</a>
+                    <a class="github" href="https://github.com/On13uka/company-info-api">GitHub</a>
+                </div>
+            </div>
+            <div class="api-card">
+                <h3>Email Validator</h3>
+                <p>3-stage verification: RFC 5322 syntax, DNS MX lookup, optional SMTP mailbox check.</p>
+                <div class="links">
+                    <a class="rapidapi" href="https://rapidapi.com/On13uka/api/email-validator112">RapidAPI</a>
+                    <a class="github" href="https://github.com/On13uka/email-validator-api">GitHub</a>
+                </div>
+            </div>
+            <div class="api-card">
+                <h3>IP Geolocation</h3>
+                <p>Country, city, lat/lon, timezone, ISP, ASN for any IP. Dual-source fallback for reliability.</p>
+                <div class="links">
+                    <a class="rapidapi" href="https://rapidapi.com/On13uka/api/ip-geolocation44">RapidAPI</a>
+                    <a class="github" href="https://github.com/On13uka/ip-geolocation-api">GitHub</a>
+                </div>
+            </div>
+            <div class="api-card">
+                <h3>Sanctions Screener</h3>
+                <p>Screen names against OFAC SDN (19,000+ entities) and UN Consolidated (1,000+ entities). Match scoring, AKA alias matching.</p>
+                <div class="links">
+                    <a class="rapidapi" href="https://rapidapi.com/On13uka/api/sanctions-screener">RapidAPI</a>
+                    <a class="github" href="https://github.com/On13uka/sanctions-screener-api">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-table">
+                <div class="plan free">
+                    <div class="name">Basic</div>
+                    <div class="price">$0</div>
+                    <div class="requests">100 requests/month</div>
+                </div>
+                <div class="plan">
+                    <div class="name">Pro</div>
+                    <div class="price">$19</div>
+                    <div class="requests">5,000 requests/month</div>
+                </div>
+                <div class="plan">
+                    <div class="name">Ultra</div>
+                    <div class="price">$49</div>
+                    <div class="requests">25,000 requests/month</div>
+                </div>
+                <div class="plan">
+                    <div class="name">Mega</div>
+                    <div class="price">$149</div>
+                    <div class="requests">100,000 requests/month</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stack">
+            <h2>Tech Stack</h2>
+            <div class="stack-items">
+                <span class="stack-item">Cursor IDE</span>
+                <span class="stack-item">FastAPI</span>
+                <span class="stack-item">Python</span>
+                <span class="stack-item">Render</span>
+                <span class="stack-item">RapidAPI</span>
+                <span class="stack-item">RDAP</span>
+                <span class="stack-item">Wikipedia</span>
+                <span class="stack-item">Wikidata</span>
+                <span class="stack-item">OFAC</span>
+                <span class="stack-item">UN</span>
+            </div>
+        </div>
+
+        <div class="cta">
+            <a href="https://rapidapi.com/user/On13uka">Get Free API Key →</a>
+        </div>
+
+        <div class="footer">
+            <p>Built with Cursor IDE. No coding skills required. 100% AI-generated code.</p>
+            <p><a href="https://github.com/On13uka" style="color:#58a6ff;text-decoration:none;">GitHub</a> · <a href="https://dev.to/onizuka/5-free-apis-i-built-with-cursor-no-coding-skills-required-now-on-rapidapi-1idl" style="color:#58a6ff;text-decoration:none;">dev.to Article</a></p>
+        </div>
+    </div>
+</body>
+</html>
